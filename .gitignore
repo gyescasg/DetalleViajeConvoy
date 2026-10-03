@@ -1,0 +1,30 @@
+node_modules/
+dist/
+
+# Los reportes reales contienen placas y rutas: nunca se versionan.
+*.xlsx
+*.xls
+*.xlsm
+*.xlsb
+*.csv
+*.ods
+# Única excepción: el archivo de ejemplo con datos ficticios.
+!public/ejemplo/reporte-ejemplo.xlsx
+
+# Los PDF exportados y las capturas llevan placas y rutas.
+*.pdf
+*.png
+*.jpg
+*.jpeg
+
+# Configuración local y credenciales.
+.env
+.env.*
+*.local
+.claude/
+.vscode/
+.idea/
+
+*.log
+.DS_Store
+Thumbs.db

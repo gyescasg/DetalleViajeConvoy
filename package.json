@@ -1,0 +1,30 @@
+{
+  "name": "reporte-gps",
+  "private": true,
+  "license": "MIT",
+  "version": "1.0.0",
+  "description": "Análisis de recorrido y separación de convoy a partir de un reporte GPS en Excel",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "ejemplo": "node scripts/generar-ejemplo.mjs"
+  },
+  "dependencies": {
+    "echarts": "^6.1.0",
+    "jspdf": "^4.2.1",
+    "jspdf-autotable": "^5.0.8",
+    "maplibre-gl": "^6.11.2",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.2"
+  }
+}
